@@ -3259,7 +3259,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   </screen>
   <!-- Volumebar -->
   <screen name="Volume" title="Volume" position="5,145" size="30,328" backgroundColor="transpBlack" zPosition="1" flags="wfNoBorder">
-    <ePixmap pixmap="cobralibero-FHD.mod/vol_box.png" position="0,303" size="30,24" alphatest="blend" zPosition="20" />
+    <ePixmap pixmap="cobralibero-FHD.mod/vol_box.png" position="0,303" size="30,24" alphatest="blend" zPosition="4" />
     <widget name="Volume" pixmap="cobralibero-FHD.mod/volumeslider.png" position="1,0" size="30,300" orientation="orBottomToTop" transparent="1" zPosition="1">
     </widget>
   </screen>
